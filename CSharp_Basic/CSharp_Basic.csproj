@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="item\BitArray_Demo.cs" />
+    <Compile Include="item\Generic_Demo.cs" />
     <Compile Include="item\HashTable_Demo.cs" />
+    <Compile Include="item\Queue_Demo.cs" />
     <Compile Include="item\SortedList_Demo.cs" />
+    <Compile Include="item\Stack_Demo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

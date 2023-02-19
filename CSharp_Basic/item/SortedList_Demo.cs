@@ -22,6 +22,7 @@ namespace project01.C_Sharp
             mSort.Add(new ChiTieu(day3.Date, 110000), 3);
 
             show_SortList(mSort);
+            Console.WriteLine();
         }
         void show_SortList(SortedList x)
         {
