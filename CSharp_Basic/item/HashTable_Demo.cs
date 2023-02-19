@@ -30,6 +30,8 @@ namespace project01.C_Sharp
             String text = "cái này là để để đếm từ xuất hiện nhiều nhất trong câu";
             demSoLanXuatHien(text);
 
+            Console.WriteLine();
+
         }
         static void demSoLanXuatHien(String text)
         {
@@ -59,6 +61,7 @@ namespace project01.C_Sharp
 
                 }
             }
+            Console.WriteLine("Text: " + text);
             Console.WriteLine("Từ xuất hiện nhiều nhất trong câu là từ: \"" + tuXuatHienNhieu + "\". Với số lần xuất hiện là: " + tempValue);
         }
 
