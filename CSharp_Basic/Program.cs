@@ -20,25 +20,25 @@ namespace CSharp_Basic
             BitArray_Demo bitArray = new BitArray_Demo();
             Generic_Demo generic_Demo= new Generic_Demo();
 
-            //Console.WriteLine("=====HashTable===========");
-            //hastTable.demo();
-            //Console.WriteLine("================");
+            Console.WriteLine("=====HashTable===========");
+            hastTable.demo();
+            Console.WriteLine("================");
 
-            //Console.WriteLine("=====SortedList============");
-            //sortedList.demo();
-            //Console.WriteLine("================");
+            Console.WriteLine("=====SortedList============");
+            sortedList.demo();
+            Console.WriteLine("================");
 
-            //Console.WriteLine("=====Stack============");
-            //stack.demo();
-            //Console.WriteLine("================");
+            Console.WriteLine("=====Stack============");
+            stack.demo();
+            Console.WriteLine("================");
 
-            //Console.WriteLine("=====Queue============");
-            //queue.demo();
-            //Console.WriteLine("================");
+            Console.WriteLine("=====Queue============");
+            queue.demo();
+            Console.WriteLine("================");
 
-            //Console.WriteLine("=====Queue============");
-            //bitArray.demo();
-            //Console.WriteLine("================");
+            Console.WriteLine("=====Queue============");
+            bitArray.demo();
+            Console.WriteLine("================");
 
             Console.WriteLine("=====Queue============");
             generic_Demo.demo();
